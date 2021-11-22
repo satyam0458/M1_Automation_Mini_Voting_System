@@ -1,1 +1,1 @@
-# M1_Game_Snake_Game
+# M1_Automation_Mini_Voting_System
