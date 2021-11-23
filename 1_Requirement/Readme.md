@@ -20,6 +20,6 @@ Admit new members to your group. This helps you stick to a regular, fair process
 7.Admin should be able to maintain all the records.
 # Low level requirements.
 1.admin should be able to ban the candidates who are not eligible for votes.
-2.admin should be able to delete the vores of banned students.
+2.admin should be able to delete the votes of banned students.
 3.User shall be able to save the data User shall be able to see the previous data
 4.User shall be able to work on previous data
