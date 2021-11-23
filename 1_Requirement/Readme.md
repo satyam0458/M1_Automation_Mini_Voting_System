@@ -11,15 +11,15 @@ Admit new members to your group. This helps you stick to a regular, fair process
 
 # Requirements
 # High level reqiurements.
-1.User could be able to login
-2.User could be able to choose the candidtae whom to vote
-3.User could be able to caste the vote
-4.User could be able to save records in a file
-5.Data should not be lost in case of faliure Scenario
-6.Data should always be stored when closing the system
-7.Admin should be able to maintain all the records.
+- User could be able to login
+- User could be able to choose the candidtae whom to vote
+- User could be able to caste the vote
+- User could be able to save records in a file
+- Data should not be lost in case of faliure Scenario
+- Data should always be stored when closing the system
+- Admin should be able to maintain all the records.
 # Low level requirements.
-1.admin should be able to ban the candidates who are not eligible for votes.
-2.admin should be able to delete the votes of banned students.
-3.User shall be able to save the data User shall be able to see the previous data
-4.User shall be able to work on previous data
+- admin should be able to ban the candidates who are not eligible for votes.
+- admin should be able to delete the votes of banned students.
+- User shall be able to save the data User shall be able to see the previous data
+- User shall be able to work on previous data
