@@ -3,7 +3,7 @@
 # UNIT TESTING
 [![CI](https://github.com/satyam0458/M1_Automation_Mini_Voting_System/actions/workflows/unity.yml/badge.svg)](https://github.com/satyam0458/M1_Automation_Mini_Voting_System/actions/workflows/unity.yml)
 
-# CPP CHECK
+# CODE CPP CHECK
 [![CI](https://github.com/satyam0458/M1_Automation_Mini_Voting_System/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/satyam0458/M1_Automation_Mini_Voting_System/actions/workflows/cppcheck.yml)
 
 # CODACY BADGE
@@ -14,6 +14,12 @@
 
 # CODE GRADE
 [![Code Grade](https://api.codiga.io/project/29902/status/svg)
+
+# Linux C/C++ CI
+[![Linux C/C++ CI](https://github.com/satyam0458/M1_Automation_Mini_Voting_System/actions/workflows/Linux_c-cpp.yml/badge.svg)](https://github.com/satyam0458/M1_Automation_Mini_Voting_System/actions/workflows/Linux_c-cpp.yml)
+
+# Windows C/C++ CI
+[![Windows C/C++ CI](https://github.com/satyam0458/M1_Automation_Mini_Voting_System/actions/workflows/windows_c-cpp.yml/badge.svg)](https://github.com/satyam0458/M1_Automation_Mini_Voting_System/actions/workflows/windows_c-cpp.yml)
 
 # Aim
 - Smoother vaccination registration process
