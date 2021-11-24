@@ -1,9 +1,13 @@
-# Mini-Voting-System-Using-C-Language
--> Allows us to set up a flexible and trustworthy voting system
--> Applicable for large as well as small group of people e.g. a batch, a class.
--> Keeps a record of  every voting process.
-## You can fork or download the repo, Once you have both the files "MAIN.C" and "ELECTION.H", You just need to compile and run MAIN.C
-( It's too easy, isn't it? ☺)
-- For Admin Panel Use Username: "Admin" Password: "admiN"
-### Feel free to raise issues if you find some errors or want to clear your doubts...
-#mini project #voting system #c project
+# Introduction
+This folder conatins all the coding files as well as the resources and testing files neede for proper execution of program
+
+# Instructions to execute
+Clone my repository
+Go to 3_Implementation folder
+Make sure your system meets all software and hardware requirements
+Run "make run" command in terminal for main code execution
+Run "make run_test" command in terminal for test code execution
+Folder	Description
+inc	Contains header files
+src	Contains additional source file for compilation
+test	Contains unit testing files
