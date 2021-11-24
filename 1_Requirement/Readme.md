@@ -1,25 +1,47 @@
-# Introduction
-An online voting system is a software platform that allows groups to securely conduct votes and election. high quality online voting system balance ballot security ,accessibility, and the overall reqiurements of an organization's voting event.
-
-Online voting tools and online election voting systems help you make important decisions by gathering the input of your group in a way that’s systematic and verifiable. Oftentimes, these decisions are made on a yearly basis - during an event (e.g. your organization’s AGM) or at a particular time of the year. Or you might run ongoing polls amongst your group (e.g. anonymous employee feedback surveys).
-
-It’s a good idea to use an online voting system to: Elect your leadership: A board of directors election is a good example, where there are multiple positions (e.g. chair, vice president, secretary, treasurer). All of which may include supporting documentation (e.g. biographies, resumés, headshots).
-
-Admit new members to your group. This helps you stick to a regular, fair process of evaluation and lets candidates know what to expect. Gather anonymous feedback from your employees. Managers (and managers of managers) want to know how their employees truly feel about their jobs and work life. Using an online voting system with a capacity for secret balloting helps employees express their true feelings, by understanding and trusting that their feedback will be heard, but not tied directly to them.
-
-
 
 # Requirements
-# High level reqiurements.
-- User could be able to login
-- User could be able to choose the candidtae whom to vote
-- User could be able to caste the vote
-- User could be able to save records in a file
-- Data should not be lost in case of faliure Scenario
-- Data should always be stored when closing the system
-- Admin should be able to maintain all the records.
-# Low level requirements.
-- admin should be able to ban the candidates who are not eligible for votes.
-- admin should be able to delete the votes of banned students.
-- User shall be able to save the data User shall be able to see the previous data
-- User shall be able to work on previous data
+## Introduction
+The deployment of covid-19 vaccines in India was done in a sudden burst and thus the tracking became very complicated. Due to multiple input and output commands on the server, it resulted in several slow running issues and crashes. The Aadhar details were used to allot the vaccines and hence it operated on a central server. To avoid the use of central server for all commmands, a local server will be loaded with the vaccine-registered data. Local verification and completion of vaccination data will be processed locally and will be loaded back to the main server by the end of day.
+
+Each vaccine centre will operate locally to register and allot vaccines. The basic registration can be done online and schedules are set as desired by the patient. Assuming a vaccination centre can vaccinate around 100 people in a day. The data handling for online basic registration will be mostly done in the day time and the data acquired by the local centres of vaccinated people can be handled in the night.
+
+The local server must store the data of around 100 people where the allocated online registration data will be loaded onto the local server of that local centre. Verification of the data is done based on the details provided by the patient. Once completed, the data of the vaccinated will be sent back for future use and reference.
+
+## Advantages
+- Smoother data handling.
+- Pre data readily available for verification.
+- Flexibility to add new registrations limited with server alloted memory.
+- Disadvantages
+- Cannot add large number of new registrations due to local server limitations.
+- Encryption is not enabled to protect the data.
+- OTP verification is not activated for new registrations.
+# SWOT Analysis
+
+
+# 4 W's and 1 H
+## Who
+- Patient who needs to be vaccinated.
+## What
+- Verify the details of the patient using the alloted data.
+## When
+- During the time alloted for vaccination.
+## Where
+- Local vaccination centre.
+## How
+- Online registration and on field verification using local server.
+# High Level Requirements
+|ID   |	|Description	Status   | |(Implemented/Future)   |
+|----|  |:-----------------:| |-------------------:|
+|HR01|	|System should be able to access pre loaded registration data for verification|	|Implemented|
+|HR02|	|User should be able to add new registrations|	|Implemented|
+|HR03|	|System should recognize vaccinated patients|	|Implemented|
+|HR04|	|OTP generated verification for secure registration|	|Future|
+|HR05|	|System should recognize invalid credentials|	|Future|
+|HR06|	|System should be updated with the time interval between two doses|	|Future|
+# Low Level Requirement
+ID	Description	Status (Implemented/Future)
+LR01	Only new user must be given an option to select vaccine type	Implemented
+LR02	Total quantity of vaccines used must be shown by EOD	Implemented
+LR03	Full list of patients vaccinated must be set as output	Implemented
+LR04	Remaining and present stock of vaccines must be tracked	Future
+LR05	Vaccine vials must be tracked for its use within a day	Future
