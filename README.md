@@ -1,5 +1,20 @@
 # M1_Automation_Vaccine_Registration_System
 
+# UNIT TESTING
+[![CI](https://github.com/satyam0458/M1_Automation_Mini_Voting_System/actions/workflows/unity.yml/badge.svg)](https://github.com/satyam0458/M1_Automation_Mini_Voting_System/actions/workflows/unity.yml)
+
+# CPP CHECK
+[![CI](https://github.com/satyam0458/M1_Automation_Mini_Voting_System/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/satyam0458/M1_Automation_Mini_Voting_System/actions/workflows/cppcheck.yml)
+
+# CODACY BADGE
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/dc4d2dddeb41477a867c82e6da7ba6e1)](https://www.codacy.com/gh/satyam0458/M1_Automation_Mini_Voting_System/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=satyam0458/M1_Automation_Mini_Voting_System&amp;utm_campaign=Badge_Grade)
+
+# CODE QUALITY
+[![Code Quality Score](https://api.codiga.io/project/29902/score/svg)
+
+# CODE GRADE
+[![Code Grade](https://api.codiga.io/project/29902/status/svg)
+
 # Aim
 - Smoother vaccination registration process
 - Reduced data traffic in the main server
